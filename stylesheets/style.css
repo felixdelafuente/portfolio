@@ -151,17 +151,18 @@ p {
 .gallery {
   margin-top: 15px;
   margin-bottom: 15px;
-  
+  border-radius: 10px;
   
 }
 
 .gallery-column {
   filter: drop-shadow(-5px 5px 0px #ffb800);
+  
 }
 
 .gallery-column :hover {
   transform: scale(1.1);
-  transition: 200ms linear;
+  transition: 100ms linear;
 }
 
 .gallery-head {
